@@ -118,3 +118,10 @@ s, i, em {
 .hide {
     display: none;
 }
+
+/*头部快捷导航*/
+.shortcut {
+    height: 30px;
+    line-height:30px;
+    background-color: #F1F1F1;
+}
