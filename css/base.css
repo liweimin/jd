@@ -279,12 +279,15 @@ s, i, em {
     text-align: center;
     top: -4px;
 }
-.w .box4{
-    width: 467px;
+.w .hotkeys {
     height: 28px;
     float: left;
-    background-color: blue;
+    padding: 7px 0;
 }
+.hotkeys a{
+    margin-right: 6px;
+}
+
 
 
 
