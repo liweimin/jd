@@ -161,10 +161,12 @@ s, i, em {
     margin-top: 9px;
     padding: 0;
 }
-.shortcut .tel-jd{
-    padding:0 20px 0 25px;
+
+.shortcut .tel-jd {
+    padding: 0 20px 0 25px;
 }
-.tel{
+
+.tel {
     position: absolute;
     width: 15px;
     height: 20px;
@@ -173,7 +175,27 @@ s, i, em {
     top: 5px;
 }
 
+.topbanner {
+    height: 80px;
+    background-color: #FBDCEB;
+}
 
+.topbanner a {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background: url(../images/close.png) no-repeat;
+    top: 5px;
+    right: 5px;
+}
+
+.topbanner a:hover {
+    background: url(../images/close.png) no-repeat 0 -19px;
+}
+
+.tp {
+    position: relative;
+}
 
 
 
