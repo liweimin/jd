@@ -217,13 +217,29 @@ s, i, em {
     top: 10px;
     left: 168px;
 }
-.w .box2{
+.w .search {
      width: 538px;
      height: 36px;
      float: left;
      margin-top:34px;
-     background-color: greenyellow;
  }
+.search input{
+    width: 454px;
+    height: 32px;
+    float: left;
+    border:2px solid #B61D1D;
+    font:14px/32px "microsoft yahei";
+    color: #666666;
+}
+.search button{
+    height: 36px;
+    width: 80px;
+    float: left;
+    background-color: #B61D1D;
+    color: #ffffff;
+    font:16px/36px "microsoft yahei";
+
+}
 .w .box3{
     width: 141px;
     height: 36px;
