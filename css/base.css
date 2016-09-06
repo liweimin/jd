@@ -196,11 +196,26 @@ s, i, em {
 .tp {
     position: relative;
 }
-.w .box1{
+.w .logo {
     width: 362px;
-    height: 100px;
+    height: 75px;
     float: left;
-    background-color: gold;
+    padding-top: 25px;
+    position: relative;
+}
+.jd-a {
+    display: block;
+    height: 60px;
+    width: 270px;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: -999px;
+}
+.db11{
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    top: 10px;
+    left: 168px;
 }
 .w .box2{
      width: 538px;
