@@ -240,13 +240,44 @@ s, i, em {
     font:16px/36px "microsoft yahei";
 
 }
-.w .box3{
-    width: 141px;
-    height: 36px;
+.w .car {
+    width: 96px;
+    height: 34px;
     float: right;
+    padding-left:43px;
     margin-top:34px;
     margin-right:65px;
-    background-color: mediumvioletred;
+    line-height:36px;
+    border:1px solid #DFDFDF;
+    background-color: #F9F9F9;
+    position: relative;
+}
+.car .icon1{
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    background: url(../images/sprite.png) no-repeat 0 -58px;
+    top: 9px;
+    left: 18px;
+}
+.car .icon2{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font: 400 13px/13px simsun;
+    color: #999;
+}
+.car .icon3{
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    border-radius: 7px 7px 7px 0;
+    background-color: #C81623;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    top: -4px;
 }
 .w .box4{
     width: 467px;
