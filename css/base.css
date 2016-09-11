@@ -287,8 +287,27 @@ s, i, em {
 .hotkeys a{
     margin-right: 6px;
 }
-
-
-
+.service{
+    height: 54px;
+    background-color: #F5F5F5;
+    padding:20px 0;
+    position: relative;
+}
+.slogan .item{
+    position: absolute;
+    left:50%;
+}
+.slogan1{
+    margin-left:-566px;
+}
+.slogan2{
+    margin-left:-262px;
+}
+.slogan3{
+    margin-left: 42px;
+}
+.slogan4{
+    margin-left:346px;
+}
 
 
