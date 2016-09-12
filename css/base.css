@@ -323,6 +323,9 @@ s, i, em {
 .navitems li{
     float: left;
 }
+.navitems li.new {
+    background: url(../images/new.jpg) no-repeat right top;
+}
 .navitems li a{
     display: block;
     height: 44px;
