@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.banner604{
+    position: relative;
+}
+.banner604 a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 604px;
+    width: 100%;
+    background: url(../images/banner.jpg) no-repeat top center;
+}
