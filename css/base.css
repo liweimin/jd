@@ -287,6 +287,34 @@ s, i, em {
 .hotkeys a{
     margin-right: 6px;
 }
+
+/*nav部分*/
+.nav{
+    height: 44px;
+    border-bottom:2px solid #B61D1D;
+}
+.dropdown{
+    width: 210px;
+    height: 44px;
+    background-color: #B1191A;
+    float: left;
+}
+.navitems{
+    width: 610px;
+    height: 44px;
+    background-color: pink;
+    float: left;
+}
+.bike{
+    width: 140px;
+    height: 44px;
+    background:url(../images/bike.jpg) no-repeat;
+    float: right;
+}
+
+
+
+
 .slogan{
     height: 54px;
     background-color: #F5F5F5;
