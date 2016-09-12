@@ -296,20 +296,52 @@ s, i, em {
 .dropdown{
     width: 210px;
     height: 44px;
-    background-color: #B1191A;
     float: left;
+    position: relative;
+    z-index:10;
+}
+.dropdown .dt{
+    height: 44px;
+    background-color: #B1191A;
+}
+.dropdown .dd{
+    height:465px;
+    background-color: #C81623;
+}
+.dropdown .dt a{
+    color:#fff;
+    display: block;
+    height: 44px;
+    padding-left:20px;
+    font:400 15px/44px "微软雅黑";
 }
 .navitems{
     width: 610px;
     height: 44px;
-    background-color: pink;
     float: left;
+}
+.navitems li{
+    float: left;
+}
+.navitems li a{
+    display: block;
+    height: 44px;
+    font:400 15px/44px "微软雅黑";
+    padding:0 20px;
+    color: #333;
+}
+.navitems li a:hover{
+    color: #C81623;
 }
 .bike{
     width: 140px;
     height: 44px;
     background:url(../images/bike.jpg) no-repeat;
     float: right;
+}
+.bike a{
+    display: block;
+    height: 44px;
 }
 
 
