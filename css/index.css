@@ -19,9 +19,31 @@
     margin-top: 12px;
     width: 730px;
     height: 453px;
-    background-color: pink;
     float: left;
+    position: relative;
 }
+.circle{
+    position: absolute;
+    bottom: 8px;
+    left:50%;
+    margin-left:-66px;
+}
+.circle li{
+    float: left;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #3E3E3E;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.circle li.current{
+    background-color: #B61B1F;
+}
+
 .news{
     width: 248px;
     height: 451px;
