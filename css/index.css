@@ -52,7 +52,10 @@
     color: #fff;
     font:500 18px/62px "宋体";
     text-align: center;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.2);
+}
+.arrow a:hover{
+    background: rgba(0,0,0,0.4);
 }
 .arrow-l{
     left: 0;
@@ -66,4 +69,67 @@
     border:1px solid #e4e4e4;
     float: right;
     margin-top: 12px;
+}
+.jd-news{
+    height: 200px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+.jd-news .dt,
+.life-service .dt{
+    height: 43px;
+    border-bottom: 1px dotted #E8E8E7;
+    line-height: 43px;
+}
+.jd-news .dt h3,
+.life-service .dt h3{
+    float: left;
+    font: 14px/43px "microsoft yahei";
+    color: #666;
+    padding-left: 15px;
+}
+.jd-news .dt a{
+    float: right;
+    font: 13px/43px "宋体";
+    padding-right:15px;
+}
+.jd-news .dd ul{
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.jd-news .dd li{
+    line-height: 28px;
+}
+.jd-news .dd span{
+    font-weight: 700;
+    padding-right: 3px;
+}
+.life-service{
+    height: 251px;
+    overflow: hidden;
+}
+.life-service ul{
+    width: 252px;
+}
+.life-service li{
+    width: 62px;
+    height: 70px;
+    float: left;
+    border:1px solid #e4e4e4;
+    border-top: 0;
+    margin-left: -1px;
+    position: relative;
+}
+.life-service li a{
+    display: block;
+    height: 20px;
+    padding-top: 44px;
+    text-align: center;
+}
+.life-service li a i{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 12px;
+    left: 18px;
+    background:url(../images/icon_lifeserv.png) no-repeat top right;
 }
