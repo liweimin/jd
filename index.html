@@ -62,12 +62,21 @@
 <!--头部快捷导航结束-->
 
 <!--topbanner部分开始-->
-<div class="topbanner">
+<div class="topbanner" id="top_banner">
     <div class="w tp">
         <img src="images/topbanner.jpg" alt="">
-        <a href=""></a>
+        <a id="jd_close" href="javascript:;"></a>
     </div>
 </div>
+<!--关闭topbanner的js-->
+<script>
+    var jd_close = document.getElementById("jd_close");
+    var top_banner = document.getElementById("top_banner");
+    jd_close.onclick = function () {
+        top_banner.style.display="none";
+    }
+</script>
+
 <!--topbanner部分结束-->
 <div class="w clearfix">
     <div class="logo">
