@@ -43,7 +43,23 @@
 .circle li.current{
     background-color: #B61B1F;
 }
-
+.arrow a{
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top: 50%;
+    margin-top:-31px;
+    color: #fff;
+    font:500 18px/62px "宋体";
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+}
+.arrow-l{
+    left: 0;
+}
+.arrow-r{
+    right: 0;
+}
 .news{
     width: 248px;
     height: 451px;
