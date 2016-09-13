@@ -133,3 +133,22 @@
     left: 18px;
     background:url(../images/icon_lifeserv.png) no-repeat top right;
 }
+.today{
+    position: relative;
+}
+.night{
+    margin:10px 0 28px 0;
+}
+.night-r{
+    width: 1000px;
+    height: 160px;
+    float: right;
+    overflow: hidden;
+}
+.night-r ul{
+    width: 500%;
+}
+.night-r li{
+    float: left;
+    margin-right: 1px;
+}
