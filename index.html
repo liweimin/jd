@@ -25,6 +25,8 @@
 </head>
 <body>
 <!--头部快捷导航开始-->
+
+<!--登录模态框效果-->
 <div id="mask"></div>
 <div id="box">
     <span id="close_modal">×</span>
@@ -267,7 +269,7 @@
             <div class="dt">
                 <h3>生活服务</h3>
             </div>
-            <div class="dd">
+            <div class="dd" id="icon_spirit">
                 <ul>
                     <li>
                         <a href="#">
@@ -342,6 +344,13 @@
                         </a>
                     </li>
                 </ul>
+                <!--小图标循环js-->
+                <script>
+                    var iis = document.getElementById("icon_spirit").getElementsByTagName("i");
+                    for(var i =0,length = iis.length;i<length;i=i+1){
+                        iis[i].style.backgroundPosition = "0 "+(-i*25)+"px";
+                    }
+                </script>
             </div>
         </div>
     </div>
